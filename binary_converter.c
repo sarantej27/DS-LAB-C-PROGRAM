@@ -13,9 +13,9 @@ i++;
 for (int j = i - 1; j >= 0; j--) 
 printf("%d", binary[j]); 
 } 
-} 
 int main() { 
 int num = 5; 
 printf("Input: %d\nOutput: ", num); 
 printBinary(num); 
 return 0;
+}
